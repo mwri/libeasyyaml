@@ -13,7 +13,9 @@ script:
     - make test
     - cat test/*.log
 after_success:
-    - make lcov-report
+    - mkdir -p coverage
+    - lcov --base-directory src --directory . -c -o coverage/lcov.info
+    - lcov --remove coverage/lcov.info "*/check_*.c" --remove coverage/lcov.info "*/easyyaml_check.c" -o coverage/lcov.info
     - coveralls-lcov coverage/lcov.info
 after_failure:
     - cat test/*.log
