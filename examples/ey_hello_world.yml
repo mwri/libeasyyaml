@@ -1,0 +1,5 @@
+version: 1.5.4
+restapi:
+  port: 80
+  ssl: false
+  base-path: /api

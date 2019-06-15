@@ -1,0 +1,8 @@
+/ey_hello_tiny
+/ey_hello_universe
+/ey_hello_world
+/.deps/
+/.dirstamp
+/check_hello_tiny-ey_hello_tiny.o
+/check_hello_universe-ey_hello_universe.o
+/check_hello_world-ey_hello_world.o

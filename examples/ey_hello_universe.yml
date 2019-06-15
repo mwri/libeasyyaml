@@ -1,0 +1,19 @@
+version: 1.5.4
+restapi:
+  port: 80
+  ssl: false
+  base-path: /api
+users:
+  michael:
+    password: qwerty
+    access:
+      - admin
+  john:
+    password: asdfgh
+    access:
+      - read
+  molly:
+    password: zxcvb
+    access:
+      - write
+      - read

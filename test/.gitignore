@@ -1,0 +1,16 @@
+/.deps/
+/.libs/
+/check_easyyaml
+/check_hello_tiny
+/check_hello_universe
+/check_hello_world
+/Makefile
+/Makefile.in
+/check_uft_tx
+/check_*.gcda
+/check_*.gcno
+/check_*.o
+/check_*.log
+/check_*.trs
+/test-suite.log
+/test-suite.tap
