@@ -13,7 +13,7 @@ script:
     - make test
     - cat test/*.log
 after_success:
-    - make cov-report
+    - make lcov-report
     - coveralls-lcov coverage/lcov.info
 after_failure:
     - cat test/*.log
