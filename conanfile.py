@@ -3,7 +3,7 @@ from conans import ConanFile
 
 class LibeasyyamlConan(ConanFile):
     name = "libeasyyaml"
-    version = "1.0.0"
+    version = "1.0.1"
     license = "MIT"
     author = "Michael Wright <mjw@methodanalysis.com>"
     url = "https://github.com/mwri/libeasyyaml",
