@@ -13,3 +13,5 @@ clean:
 	rm -f ey_hello_tiny ey_hello_world ey_hello_universe
 
 check:
+
+install:
